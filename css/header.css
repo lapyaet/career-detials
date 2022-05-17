@@ -13,16 +13,22 @@
     width: auto;
 }
 
+.header nav {
+    margin-left: 3rem;
+    margin-top: 0.2rem;
+}
+
 nav ul {
     display: flex;
-    gap: 1.5rem;
-    padding-left: 4rem;
+    gap: 3rem;
+    margin-left: 1rem;
 }
 
 nav ul li a {
     text-decoration: none;
     font-size: 0.8rem;
     color: #FFFFFF;
+    
 }
 
 .header-item3 a {
@@ -47,7 +53,7 @@ nav ul li a {
 
 label {
     z-index: 10;
-    display: none;
+    display: none !important;
 }
 
 
@@ -65,7 +71,7 @@ label .check-btn {
 
 
 
-@media (min-width:0) and (max-width:620px) {
+@media (min-width:0) and (max-width:700px) {
     .header {
         width: 90%;
     }
@@ -95,7 +101,7 @@ label .check-btn {
     }
     
     label {
-        display: block;
+        display: block !important;
     }
 
     .mobile-nav li {
